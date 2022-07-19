@@ -1,3 +1,4 @@
+import time
 import numpy as np
 
 while True:
@@ -9,6 +10,7 @@ while True:
         print('You should enter a positive integer. Please try again.')
     
 for i in range(n):
+    time.sleep(i/100)
     result = np.random.choice(range(1, 43), size=5, replace=False)
     print(f'Ticket number {i+1}:', sorted(result))
 
