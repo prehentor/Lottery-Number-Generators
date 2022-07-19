@@ -1,4 +1,4 @@
-# Lottery number generators
+## Lottery number generators
 
 Available games:
 
