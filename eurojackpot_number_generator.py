@@ -2,8 +2,7 @@ import numpy as np
 import time
 
 def EurojackpotNumberGenerator():
-    '''Simple Eurojackpot number generator that never produced a winning sequence'''
-
+    
     t_start = np.random.randint(30)
     t_stop = np.random.randint(99)
 
